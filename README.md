@@ -4,11 +4,11 @@ Uni3: A Dictionary of Kagome v2
 A dictionary package of [kagome v2](http://github.com/ikawaha/kagome/tree/v2). 
 This software includes a binary and/or source version of data from
 
-* unidic-cwj-3.1.1-full
+* unidic-cwj-202302_full
 
 which can be obtained from
 
-* https://clrd.ninjal.ac.jp/unidic_archive/cwj/3.1.1/unidic-cwj-3.1.1.zip
+* https://clrd.ninjal.ac.jp/unidic_archive/2302/unidic-cwj-202302_full.zip
 
  # Feature Fields
  
