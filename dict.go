@@ -8,6 +8,7 @@ import (
 	"sort"
 	"sync"
 
+	kagome_dict_uni3_sub "github.com/dakimura/kagome-dict-uni3-sub"
 	"github.com/ikawaha/kagome-dict/dict"
 )
 
@@ -109,6 +110,9 @@ func loadDict(full bool) (d *dict.Dict) {
 			panic(err)
 		}
 		rs = append(rs, bytes.NewReader(b))
+	}
+	for _, v := range kagome_dict_uni3_sub.GetDictPart() {
+		rs = append(rs, v)
 	}
 	r := dict.MultiSizeReaderAt(rs...)
 	zr, err := zip.NewReader(r, r.Size())

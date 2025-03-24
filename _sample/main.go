@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	uni "github.com/ikawaha/kagome-dict-uni3"
+	uni "github.com/dakimura/kagome-dict-uni3"
 	"github.com/ikawaha/kagome/v2/tokenizer"
 )
 
