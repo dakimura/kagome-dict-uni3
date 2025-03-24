@@ -1,4 +1,4 @@
-module github.com/ikawaha/kagome-dict-uni3
+module github.com/dakimura/kagome-dict-uni3
 
 go 1.23.0
 
