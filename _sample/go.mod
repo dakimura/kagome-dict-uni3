@@ -1,6 +1,8 @@
 module kagome
 
-go 1.19
+go 1.23.0
+
+toolchain go1.24.0
 
 replace github.com/ikawaha/kagome-dict-uni3 => ../
 
@@ -9,4 +11,4 @@ require (
 	github.com/ikawaha/kagome/v2 v2.9.0
 )
 
-require github.com/ikawaha/kagome-dict v1.0.8 // indirect
+require github.com/ikawaha/kagome-dict v1.1.6 // indirect

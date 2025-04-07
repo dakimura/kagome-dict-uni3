@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-src="./unidic-cwj-3.1.1-full"
+src="./unidic-cwj-202302_full"
 data_dir=".."
 dict="./${data_dir}/uni3.dict"
 dest_dir="${data_dir}/dict"
